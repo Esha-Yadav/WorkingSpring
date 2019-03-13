@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SpringChapter4/ServiceA/ServiceA.iml" filepath="$PROJECT_DIR$/../SpringChapter4/ServiceA/ServiceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringChapter4.iml" filepath="$PROJECT_DIR$/SpringChapter4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringChapter4/eureksrvr/eureksrvr.iml" filepath="$PROJECT_DIR$/../SpringChapter4/eureksrvr/eureksrvr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringChapter4/serviceB/serviceB.iml" filepath="$PROJECT_DIR$/../SpringChapter4/serviceB/serviceB.iml" />
+    </modules>
+  </component>
+</project>
