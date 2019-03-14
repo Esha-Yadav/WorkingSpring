@@ -5,13 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ServiceA</artifactId>
-
+    <artifactId>confsrvr</artifactId>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.4.RELEASE</version>
     </parent>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -25,33 +25,16 @@
     </dependencyManagement>
 
     <dependencies>
-
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-
-
-
-
-
         <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-eureka</artifactId>
-    </dependency>
-
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-client</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
-
-</dependencies>
+    </dependencies>
 
     <build>
         <plugins>
@@ -61,4 +44,7 @@
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>

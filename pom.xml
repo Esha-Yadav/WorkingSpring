@@ -11,7 +11,8 @@
     <modules>
         <module>eureksrvr</module>
         <module>ServiceA</module>
-        <module>serviceB</module>
+        <module>config.serviceB</module>
+        <module>confsrvr</module>
     </modules>
 
 

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: serviceB
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled: true
